@@ -11,6 +11,8 @@ import dagger.android.support.DaggerAppCompatActivity;
 public class AuthActivity extends DaggerAppCompatActivity {
     
     @Inject String someString;
+
+    @Inject boolean isAppNull;
     private static final String TAG = "AuthActivity";
 
     @Override
@@ -19,6 +21,7 @@ public class AuthActivity extends DaggerAppCompatActivity {
         setContentView(R.layout.activity_auth);
 
         Log.d(TAG, "onCreate: String : "+someString);
+        Log.d(TAG,"onCreate: is app null? "+isAppNull);
 
 
     }
