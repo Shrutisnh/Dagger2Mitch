@@ -2,8 +2,6 @@ package com.demo.dagger2;
 
 
 
-
-
 import com.demo.dagger2.di.DaggerAppComponent;
 
 import dagger.android.AndroidInjector;
