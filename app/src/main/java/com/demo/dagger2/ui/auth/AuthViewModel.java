@@ -16,8 +16,8 @@ public class AuthViewModel extends ViewModel {
     public AuthViewModel(AuthApi authApi){
         this.authApi = authApi;
         if(authApi==null)
-            Log.d(TAG, "AuthViewModel: Auth viewmodel is NULL");
+            Log.d(TAG, "AuthViewModel: Auth view model is NULL");
         else
-            Log.d(TAG, "AuthViewModel: Auth view model is not null");
+            Log.d(TAG, "AuthViewModel: Auth view model is NOT null");
     }
 }
